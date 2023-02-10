@@ -1,3 +1,8 @@
+.aa {
+  width: 60%;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
 .services__container {
   grid-template-columns: repeat(3, 270px);
   justify-content: center;
@@ -85,6 +90,8 @@
 
 .imagesss {
   width: 100%;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 .services__modal-title {
   text-align: center;
