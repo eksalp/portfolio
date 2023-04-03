@@ -2,6 +2,7 @@ import React from 'react';
 import Frontend from './Frontend';
 import Backend from './Backend';
 import './skill.css';
+import '../services/service.css';
 
 const Skills = () => {
   return (

@@ -49,6 +49,8 @@
 
 .skills_level {
   font-size: var(--tiny-font-size);
+  padding: 1px;
+  paddin-top: 0;
 }
 @media screen and (max-width: 992px) {
   .skills__container {

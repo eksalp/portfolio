@@ -18,6 +18,9 @@
   padding: 0.25rem 0.5rem 0.25rem 0.75rem;
 }
 
+/* .borderr {
+  border: 1px;
+} */
 .qualification__button:hover {
   background-color: black;
   color: var(--container-color);
@@ -89,11 +92,15 @@
 }
 
 .edit_button {
-  padding: 10px 15px;
-  font-size: var(--small-font-size);
+  padding: 7px 9px;
+  font-size: var(--tiny-font-size);
   color: var(--body-color);
   column-gap: 1.5rem;
-  border-radius: 13px;
+  border-radius: 9px;
+}
+
+.aak {
+  margin-top: 10px;
 }
 
 .edit_button_awal {

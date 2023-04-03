@@ -45,7 +45,8 @@ const Service = () => {
             <div>
               <i className="uil uil-head-side-cough services__icon"></i>
               <h3 className="sevices__title">
-                Speaker <br /> at
+                <br />
+                Speaker
                 <br /> ReadyLearn
               </h3>
             </div>

@@ -38,7 +38,7 @@ const Qualification = () => {
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             {''}
           </div>
-          <div onClick={() => pilihan(3)} className={pilih === 3 ? 'qualification__button qualification__active button--flex' : 'qualification__button button--flex'}>
+          <div onClick={() => pilihan(3)} className={pilih === 3 ? 'qualification__button qualification__active button--flex' : 'borderr qualification__button button--flex'}>
             <i className="uil uil-university qualification__icon"></i>
             {''}
           </div>
@@ -58,7 +58,7 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2016 - 2019
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(1)}>
+                <button className="button edit_button aak" onClick={() => togelTab(1)}>
                   Detail
                 </button>
                 <div className={togel === 1 ? 'services__modal active-modal' : 'services__modal'}>
@@ -110,7 +110,7 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(2)}>
+                <button className="button edit_button aak" onClick={() => togelTab(2)}>
                   Detail
                 </button>
                 <div className={togel === 2 ? 'services__modal active-modal' : 'services__modal'}>
@@ -152,9 +152,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Front End Engineer</h3>
                 <span className="qualification__subtitle">PT Ruang Raya Indonesia (Ruangguru)</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2022 - 6 Months
+                  <i className="uil uil-calendar-alt"></i> 2022 - 6 Months
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(3)}>
+                <button className="button edit_button aak" onClick={() => togelTab(3)}>
                   Detail
                 </button>
                 <div className={togel === 3 ? 'services__modal active-modal' : 'services__modal'}>
@@ -204,9 +204,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Finance Intern</h3>
                 <span className="qualification__subtitle">KPPN Serang, Ministry of Finance</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2022 - 2 Months
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2 Months
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(4)}>
+                <button className="button edit_button aak" onClick={() => togelTab(4)}>
                   Detail
                 </button>
                 <div className={togel === 4 ? 'services__modal active-modal' : 'services__modal'}>
@@ -250,7 +250,7 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2022 - 1 Year
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(5)}>
+                <button className="button edit_button aak" onClick={() => togelTab(5)}>
                   Detail
                 </button>
                 <div className={togel === 5 ? 'services__modal active-modal' : 'services__modal'}>
@@ -296,9 +296,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Web Design</h3>
                 <span className="qualification__subtitle">Univ UI</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(6)}>
+                <button className="button edit_button aak" onClick={() => togelTab(6)}>
                   Detail
                 </button>
                 <div className={togel === 6 ? 'services__modal active-modal' : 'services__modal'}>
@@ -348,9 +348,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Art Director</h3>
                 <span className="qualification__subtitle">Univ UI</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(7)}>
+                <button className="button edit_button aak" onClick={() => togelTab(7)}>
                   Detail
                 </button>
                 <div className={togel === 7 ? 'services__modal active-modal' : 'services__modal'}>
@@ -389,9 +389,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">Univ UI</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(8)}>
+                <button className="button edit_button aak" onClick={() => togelTab(8)}>
                   Detail
                 </button>
                 <div className={togel === 8 ? 'services__modal active-modal' : 'services__modal'}>
@@ -441,9 +441,9 @@ const Qualification = () => {
                 <h3 className="qualification__title"> wemblew Director</h3>
                 <span className="qualification__subtitle">Univ UI</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(9)}>
+                <button className="button edit_button aak" onClick={() => togelTab(9)}>
                   Detail
                 </button>
                 <div className={togel === 9 ? 'services__modal active-modal' : 'services__modal'}>
@@ -482,9 +482,9 @@ const Qualification = () => {
                 <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">Univ UI</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - Present
                 </div>
-                <button className="button edit_button" onClick={() => togelTab(10)}>
+                <button className="button edit_button aak" onClick={() => togelTab(10)}>
                   Detail
                 </button>
                 <div className={togel === 10 ? 'services__modal active-modal' : 'services__modal'}>

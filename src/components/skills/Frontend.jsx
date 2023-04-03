@@ -10,7 +10,7 @@ const Frontend = () => {
         <div className="skills__group">
           {skillku.map((item, index) => (
             <div className="skills__data">
-              <i className="bx bx-check"></i>
+              <i className="uil uil-check-circle services__modal-icon"></i>
               <div key={item}>
                 <h3 className="skills__name">{item}</h3>
                 <span className="skills_level">{levelku[index]}</span>

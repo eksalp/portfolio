@@ -40,8 +40,9 @@
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
+  padding: 0 1rem 0 0;
   margin-bottom: var(--mb-2-5);
+  text-align: justify;
 }
 
 @media screen and (max-width: 992px) {
@@ -72,6 +73,23 @@
   }
 }
 
+.aka:hover .animate {
+  animation: move-up-and-down 1s ease-in-out infinite;
+  transition: transform 0.1s;
+}
+
+@keyframes move-up-and-down {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 @media screen and (max-width: 576px) {
   .about__info {
     grid-template-columns: repeat(3, 1fr);
@@ -79,6 +97,7 @@
 
   .about__description {
     padding: 0;
+    text-align: center;
   }
 }
 

@@ -35,19 +35,19 @@
   margin-left: 0.4rem;
 }
 
-/* .home__subtitle {
-  margin-bottom: var(--mb-1);
-} */
+.anjay .animate {
+  transition: transform 1s;
+  animation: move 1s ease-in-out infinite alternate;
+}
 
-/* .home__subtitle::before {
-  content: '';
-  position: absolute;
-  width: 70px;
-  height: 1px;
-  background-color: var(--text-color);
-  left: 0;
-  top: 1rem;
-} */
+@keyframes move {
+  from {
+    transform: translateY(-5px) translateX(5px) rotate(0deg);
+  }
+  to {
+    transform: translateX(-3px) rotate(0deg);
+  }
+}
 
 .home__description {
   max-width: 400px;
@@ -55,7 +55,7 @@
 }
 
 .home__img {
-  background: url(../../assets//profile.jpg);
+  background: url(../../assets//about.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
