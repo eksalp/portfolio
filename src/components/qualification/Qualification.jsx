@@ -222,17 +222,17 @@ const Qualification = () => {
                     <ul className="services__modal-services grid">
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Validate the SPM (Payment Order) submitted by the Satker (Work Unit) to KPPN for disbursement of funds.</p>
+                        <p className="services__modal-info">Approve of the SPM (Surat Pencairan Dana) submitted by Satker (Satuan Kerja) to KPPN Serang for disbrusement of funds</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Take care of salary increases, transfers and pensions for civil servants, PPPK, TNI and Polri.</p>
+                        <p className="services__modal-info">Manage employee salary increase, mutation of employee, pension of worker such as TNI, Polri, PNS, and PPPK.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Correcting data on the disbursement of funds from the satker submitted to the KPPN.</p>
+                        <p className="services__modal-info">Correct data about disbrusement of funds from Satker which submitted to KPPN.</p>
                       </li>
                     </ul>
                   </div>
@@ -293,10 +293,15 @@ const Qualification = () => {
             <h3 className="qualification__tabs">Volunteer Experience</h3>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Univ UI</span>
+                <h3 className="qualification__title">
+                  Marketing <br />
+                  Campaign Volunteer
+                </h3>
+                <span className="qualification__subtitle">
+                  Harisenin.com <br /> (PT. Karya Kaya Bahagia)
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 1 Month
                 </div>
                 <button className="button edit_button aak" onClick={() => togelTab(6)}>
                   Detail
@@ -304,27 +309,27 @@ const Qualification = () => {
                 <div className={togel === 6 ? 'services__modal active-modal' : 'services__modal'}>
                   <div className="services__modal-content">
                     <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
-                    <h3 className="services__modal-title">Sharia Economic Learning</h3>
+                    <h3 className="services__modal-title">Marketing Campaign Volunteer</h3>
                     <div className="about__images">
                       <img src={vol1} alt="" className="imagesss" />
                     </div>
 
-                    <p className="services__modal-description"></p>
+                    <p className="services__modal-description">Has participated in volunteer marketing campaigns for 1 month at Harisenin.com</p>
 
                     <ul className="services__modal-services grid">
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Promote events and services offered by Harisenin.com with enhancements Visitors as much as 3%.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Uploading Harisenin.com content to personal social media accounts according to creativity each and the direction of the person in charge of the team.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Invite youth to take a part in events which organized by Harisenin.com.</p>
                       </li>
                     </ul>
                   </div>
@@ -345,10 +350,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">Univ UI</span>
+                <h3 className="qualification__title">Marketing Event Volunteer</h3>
+                <span className="qualification__subtitle">
+                  SponsorKu <br /> (PT Tarumanagara Solusi Indonesia)
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 1 Month
                 </div>
                 <button className="button edit_button aak" onClick={() => togelTab(7)}>
                   Detail
@@ -356,27 +363,27 @@ const Qualification = () => {
                 <div className={togel === 7 ? 'services__modal active-modal' : 'services__modal'}>
                   <div className="services__modal-content">
                     <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
-                    <h3 className="services__modal-title">Sharia Economic Learning</h3>
+                    <h3 className="services__modal-title">Marketing Event Volunteer</h3>
                     <div className="about__images">
                       <img src={vol2} alt="" className="imagesss" />
                     </div>
 
-                    <p className="services__modal-description"></p>
+                    <p className="services__modal-description">Has participated in marketing event volunteer (Gerakan Promosi Ragam Pesona Kuningan 2022) for 1 month at SponsorKu (PT Tarumanagara Solusi Indonesia)</p>
 
                     <ul className="services__modal-services grid">
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Holding discussions with tourism activists regarding the topics being discussed.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Promote existing tourism in Kuningan and provide an increase in visitors tourism by 10%.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Perform the campaign to engage visiting Kota Kuningan 2022 for youth.</p>
                       </li>
                     </ul>
                   </div>
