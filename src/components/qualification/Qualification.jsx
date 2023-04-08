@@ -165,22 +165,22 @@ const Qualification = () => {
                       <img src={kerja1} alt="" className="imagesss" />
                     </div>
 
-                    <p className="services__modal-description">Has completed Studi Independen by Kampus Merdeka Kemdikbud</p>
+                    <p className="services__modal-description">Has completed Studi Independen by Kampus Merdeka Kemdikbud in Ruangguru as a Front End Engineer.</p>
 
                     <ul className="services__modal-services grid">
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Get a GPA of 3.63 out of 4.00</p>
+                        <p className="services__modal-info">Able to build responsive & interactive website applications.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Became a participant student at Kampus Merdeka Kemendikbud 2022</p>
+                        <p className="services__modal-info">Has learned some languages programming for front end engineer, such as HTML, CSS, Javascript and some libraries and frameworks.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Became a participant of PKM-RSH in 2022</p>
+                        <p className="services__modal-info">Achieve final GPA 3.65/4.00 in Ruangguru.</p>
                       </li>
                     </ul>
                   </div>
@@ -217,22 +217,22 @@ const Qualification = () => {
                       <img src={kerja2} alt="" className="imagesss" />
                     </div>
 
-                    <p className="services__modal-description">Has completed intership at KPPN Serang (September - Oktober 2022)</p>
+                    <p className="services__modal-description">Has completed internship at KPPN Serang (September - Oktober 2022)</p>
 
                     <ul className="services__modal-services grid">
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Get a GPA of 3.63 out of 4.00</p>
+                        <p className="services__modal-info">Validate the SPM (Payment Order) submitted by the Satker (Work Unit) to KPPN for disbursement of funds.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Became a participant student at Kampus Merdeka Kemendikbud 2022</p>
+                        <p className="services__modal-info">Take care of salary increases, transfers and pensions for civil servants, PPPK, TNI and Polri.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Became a participant of PKM-RSH in 2022</p>
+                        <p className="services__modal-info">Correcting data on the disbursement of funds from the satker submitted to the KPPN.</p>
                       </li>
                     </ul>
                   </div>
@@ -261,22 +261,22 @@ const Qualification = () => {
                       <img src={org1} alt="" className="imagesss" />
                     </div>
 
-                    <p className="services__modal-description"></p>
+                    <p className="services__modal-description">Become a staff in the 2022 KEI FEB UNS sharia economic learning division</p>
 
                     <ul className="services__modal-services grid">
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Establish relationships and work together with the Marcom, RnD, Finance division teams in forming projects Sharia Economic Learning division.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Leading the e-bulletin team with 8 staff members from the Marcom, RnD, HRD divisions.</p>
                       </li>
 
                       <li className="services__modal-service">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Lorem, ipsum dolor.</p>
+                        <p className="services__modal-info">Became in charge of the Webinar Series from the SEL KEI FEB UNS project which was attended by 50 participants.</p>
                       </li>
                     </ul>
                   </div>
