@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Backend = () => {
-  let skillku = ['Node JS', 'RESTful API', 'Vercel', 'Express JS'];
+  let skillku = ['Node JS', 'RESTful API', 'Vercel', 'Firebase'];
   let levelku = ['Basic', 'Intermediate', 'Basic', 'Basic'];
   return (
     <div className="skills__content">
