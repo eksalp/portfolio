@@ -599,7 +599,12 @@ const Service = () => {
 
           <div className="services__content">
             <div>
-              <i className="uil uil-monitor services__icon"></i>
+              <div className="apa apaa">
+                <i className="uil uil-html5 services__icon"></i>
+                <i className="uil uil-html3 services__icon"></i>
+                <i className="bx bxl-javascript se services__icon"></i>
+              </div>
+
               <h3 className="sevices__title">
                 Basic Web
                 <br /> Programming <br /> by Dicoding
@@ -768,6 +773,415 @@ const Service = () => {
               </div>
             </div>
           </div>
+
+          <div className="services__content">
+            <div>
+              <i className="uil uil-book-open services__icon"></i>
+              <h3 className="sevices__title">
+                General Competencies
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(15)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 15 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">General Competencies course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1aNsptrOFC-XdrY3YwHTmWXYK-gK1XOFc" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Study Communication and Presentations Skills, Analytical & Strategic Thinking Skills, and Project Management</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the basic understanding of thinking as one of the basic human instincts</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to understand basic thinking skills as one of self-development</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <i className="uil uil-monitor services__icon"></i>
+              <h3 className="sevices__title">
+                Software Engineering
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(16)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 16 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Software Engineering course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1Q3D7YrgHXzOdM0N-bjvLEiaWsbPhkbWJ" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Implement the software development process with using VSCode, Terminal, and Version Control</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand Project Management methods and tools</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be Able to develop software with mindset a software engineer</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-html5 services__icon"></i>
+                <i className="uil uil-html3 services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                HTML & CSS
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(17)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 17 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Web Development With HTML & CSS course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1lYVYGkg3xmcuFxbsgSkgZzv5uc2cBhNn" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Implement the software development process with using VSCode, Terminal, and Version Control</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand Project Management methods and tools</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be Able to develop software with mindset a software engineer</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="bx bxl-javascript se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Javascript
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(18)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 18 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Programming with Javascript course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1h7zTk438WF-MW2dR4wyW74Byg4i6iYzt" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the general concepts contained in the language dynamic programming especially Javascript</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the top-level features of the language JavaScript programming</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to use programming languages Javascript to solve a problem</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i class="bx bxl-nodejs se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Node.js
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(19)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 19 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Node.js course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=19EwaVOKM828Y7UXbZXq1e3Vhs6aqDz5y" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Utilize the NodeJS development ecosystem to develop applications</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to apply the use of package managers (NPM)</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to manipulate package.json to configure information about applications and dependencies needed</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i class="bx bx-code-alt se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Web APIs
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(20)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 20 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Interacting with Web APIs course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=122xYwpvBrZjkvsXoCX5SkLXyohqcamDs" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand how website applications run and are displayed from the client side</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to understand and manipulate the Document Object Model</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to utilize objects in browsers (Browser API), especially the Web</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i class="bx bxl-react se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                React Js
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(21)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 21 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Frontend Web Development with React course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1bZrmNtsgOqV3ICiKnTbVV_lcgFeJ7Tl3" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the fundamental ReactJS library (JSX, Component, Props, State, LifeCycle, Event Handling) and use ReactJS to create a Single Page Application</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the concept of Single Page Application ReactJS and create Routing using the React Router DOM package</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">understand and use JSX on ReactJS Component</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-cloud-computing services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                RESTful API
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(22)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 22 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Consuming RESTful API course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1gYJsCigqWYFV_MOiCGPmJCwLgKSFUaEf" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the fundamental RESTful API architecture and apply it in website development on the frontend development side</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to understand and use HTTP Method in RESTful API architecture</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the basic concepts of RESTful API architecture</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-github services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Deploy to Web
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(23)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 23 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Frontend Deployment To Production course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1ohmM_Xv2tCVKgSFR5dvsc9UWhhmlH_XQ" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand how to deploy a ReactJS application that has been created so that it can be accessed online using the Netlify / Vercel / Github Pages service</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Can do deployment to Netlify / Vercel / Github Pages services</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to understand the concept of building ReactJS (production) applications for deployment</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -775,7 +1189,12 @@ const Service = () => {
         <div className="services__container container grid">
           <div className="services__content">
             <div>
-              <i className="uil uil-monitor services__icon"></i>
+              <div className="apa apaa">
+                <i className="uil uil-html5 services__icon"></i>
+                <i className="uil uil-html3 services__icon"></i>
+                <i className="bx bxl-javascript se services__icon"></i>
+              </div>
+
               <h3 className="sevices__title">
                 Basic Web
                 <br /> Programming <br /> by Dicoding
@@ -896,6 +1315,372 @@ const Service = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">Learn how to make Business Model Canvas, Product Management, Product Vision, etc</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <i className="uil uil-monitor services__icon"></i>
+              <h3 className="sevices__title">
+                Software Engineering
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(16)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 16 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Software Engineering course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1Q3D7YrgHXzOdM0N-bjvLEiaWsbPhkbWJ" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Implement the software development process with using VSCode, Terminal, and Version Control</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand Project Management methods and tools</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be Able to develop software with mindset a software engineer</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-html5 services__icon"></i>
+                <i className="uil uil-html3 services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                HTML & CSS
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(17)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 17 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Web Development With HTML & CSS course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1lYVYGkg3xmcuFxbsgSkgZzv5uc2cBhNn" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Implement the software development process with using VSCode, Terminal, and Version Control</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand Project Management methods and tools</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be Able to develop software with mindset a software engineer</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="bx bxl-javascript se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Javascript
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(18)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 18 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Programming with Javascript course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1h7zTk438WF-MW2dR4wyW74Byg4i6iYzt" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the general concepts contained in the language dynamic programming especially Javascript</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the top-level features of the language JavaScript programming</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to use programming languages Javascript to solve a problem</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i class="bx bxl-nodejs se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Node.js
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(19)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 19 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Node.js course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=19EwaVOKM828Y7UXbZXq1e3Vhs6aqDz5y" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Utilize the NodeJS development ecosystem to develop applications</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to apply the use of package managers (NPM)</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to manipulate package.json to configure information about applications and dependencies needed</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i class="bx bx-code-alt se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Web APIs
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(20)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 20 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Interacting with Web APIs course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=122xYwpvBrZjkvsXoCX5SkLXyohqcamDs" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand how website applications run and are displayed from the client side</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to understand and manipulate the Document Object Model</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to utilize objects in browsers (Browser API), especially the Web</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i class="bx bxl-react se services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                React Js
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(21)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 21 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Frontend Web Development with React course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1bZrmNtsgOqV3ICiKnTbVV_lcgFeJ7Tl3" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the fundamental ReactJS library (JSX, Component, Props, State, LifeCycle, Event Handling) and use ReactJS to create a Single Page Application</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the concept of Single Page Application ReactJS and create Routing using the React Router DOM package</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">understand and use JSX on ReactJS Component</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-cloud-computing services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                RESTful API
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(22)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 22 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Consuming RESTful API course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1gYJsCigqWYFV_MOiCGPmJCwLgKSFUaEf" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the fundamental RESTful API architecture and apply it in website development on the frontend development side</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to understand and use HTTP Method in RESTful API architecture</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the basic concepts of RESTful API architecture</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-github services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Deploy to Web
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(23)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 23 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Frontend Deployment To Production course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1ohmM_Xv2tCVKgSFR5dvsc9UWhhmlH_XQ" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand how to deploy a ReactJS application that has been created so that it can be accessed online using the Netlify / Vercel / Github Pages service</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Can do deployment to Netlify / Vercel / Github Pages services</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to understand the concept of building ReactJS (production) applications for deployment</p>
                   </li>
                 </ul>
               </div>
@@ -1500,6 +2285,49 @@ const Service = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">Learn basic VBA in Microsoft Excel</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <i className="uil uil-book-open services__icon"></i>
+              <h3 className="sevices__title">
+                General Competencies
+                <br /> Course <br /> by Ruangguru
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(15)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 15 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">General Competencies course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1aNsptrOFC-XdrY3YwHTmWXYK-gK1XOFc" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Ruangguru Career Acceleration Bootcamp through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Study Communication and Presentations Skills, Analytical & Strategic Thinking Skills, and Project Management</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Understand the basic understanding of thinking as one of the basic human instincts</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Be able to understand basic thinking skills as one of self-development</p>
                   </li>
                 </ul>
               </div>

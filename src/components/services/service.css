@@ -210,3 +210,12 @@
     padding-right: 6px;
   }
 }
+
+.apa {
+  display: flex;
+  column-gap: 5px;
+}
+
+.se {
+  margin-top: 6px;
+}
