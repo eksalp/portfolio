@@ -1201,7 +1201,7 @@ const Service = () => {
             <div className={togel === 24 ? 'services__modal active-modal' : 'services__modal'}>
               <div className="services__modal-content">
                 <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
-                <h3 className="services__modal-title">Frontend Deployment To Production course by Ruangguru</h3>
+                <h3 className="services__modal-title">Cloud Practitioner Essentials</h3>
                 <div className="about__images">
                   <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
                 </div>
@@ -1750,7 +1750,7 @@ const Service = () => {
             <div className={togel === 24 ? 'services__modal active-modal' : 'services__modal'}>
               <div className="services__modal-content">
                 <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
-                <h3 className="services__modal-title">Frontend Deployment To Production course by Ruangguru</h3>
+                <h3 className="services__modal-title">Cloud Practitioner Essentials</h3>
                 <div className="about__images">
                   <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
                 </div>

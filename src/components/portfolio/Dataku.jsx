@@ -41,6 +41,13 @@ export const projectData = [
     category: 'business',
     link: 'https://www.instagram.com/p/CqRnH1ah9rn/',
   },
+  {
+    id: 7,
+    image: 'https://drive.google.com/uc?export=view&id=1UljxfWYbHCcHMF15m_XIv-XVd5BtkIQs',
+    title: 'Website Space Education',
+    category: 'web App',
+    link: 'https://spacedu.netlify.app/',
+  },
 ];
 
 export const projectNav = [
