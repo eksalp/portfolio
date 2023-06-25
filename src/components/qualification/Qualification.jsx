@@ -239,6 +239,101 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">CTO & Co-Founder</h3>
+                <span className="qualification__subtitle">OTOranger</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 - Now
+                </div>
+                <button className="button edit_button aak" onClick={() => togelTab(5)}>
+                  Detail
+                </button>
+                <div className={togel === 5 ? 'services__modal active-modal' : 'services__modal'}>
+                  <div className="services__modal-content">
+                    <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                    <h3 className="services__modal-title">CTO & Co-Founder</h3>
+                    <div className="about__images">
+                      <img src="https://drive.google.com/uc?export=view&id=1nuSg6gDMyZGPnzOmCEK8l8vd4Rq72OmW" alt="sertifikat" className="imagesss" />
+                    </div>
+
+                    <p className="services__modal-description">
+                      Becoming CTO and Co-Founder of OTOranger which is a pre-startup tenant of UNS Innovation HUB. <a href="uns.id/PenugasanInovasi2023">SK Rektor Download Here!!</a>
+                    </p>
+
+                    <ul className="services__modal-services grid">
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Lead the technology team in designing, developing, and implementing technology solutions that support company goals.</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Lead the team in the creation of web-based applications</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Design ideas and business opportunities that can be developed to overcome problems</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">CEO & Founder</h3>
+                <span className="qualification__subtitle">Space Education</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 - Now
+                </div>
+                <button className="button edit_button aak" onClick={() => togelTab(6)}>
+                  Detail
+                </button>
+                <div className={togel === 6 ? 'services__modal active-modal' : 'services__modal'}>
+                  <div className="services__modal-content">
+                    <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                    <h3 className="services__modal-title">CEO & Founder</h3>
+                    <div className="about__images">
+                      <img src="https://drive.google.com/uc?export=view&id=1MsX_wDvu080XB3f6KDDKCV_YULt97d8S" alt="gambar" className="imagesss" />
+                    </div>
+
+                    <p className="services__modal-description">Becoming CEO and Founder of Space Education</p>
+
+                    <ul className="services__modal-services grid">
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Have the responsibility to carry out the vision, mission and goals of Space Education</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">As the initiator and prime mover of business ideas</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Expand business opportunities and ideas to customers</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className={pilih === 3 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
@@ -456,7 +551,7 @@ const Qualification = () => {
                 <div className={togel === 9 ? 'services__modal active-modal' : 'services__modal'}>
                   <div className="services__modal-content">
                     <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
-                    <h3 className="services__modal-title">Campign Volunteer</h3>
+                    <h3 className="services__modal-title">Campaign Volunteer</h3>
                     <div className="about__images">
                       <img src={vol4} alt="sertifikat" className="imagesss" />
                     </div>
@@ -526,6 +621,56 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Campaign Volunteer</h3>
+                <span className="qualification__subtitle">Campaign Indonesia</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 - 1 Month
+                </div>
+                <button className="button edit_button aak" onClick={() => togelTab(11)}>
+                  Detail
+                </button>
+                <div className={togel === 11 ? 'services__modal active-modal' : 'services__modal'}>
+                  <div className="services__modal-content">
+                    <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                    <h3 className="services__modal-title">Campaign Volunteer</h3>
+                    <div className="about__images">
+                      <img src="https://drive.google.com/uc?export=view&id=1nNNRmVCnlG-TBfgrnPt0UXCembo3tfaZ" alt="sertifikat" className="imagesss" />
+                    </div>
+
+                    <p className="services__modal-description">Has participated in campaign volunteer 2023 for 1 month at Campaign Indonesia</p>
+
+                    <ul className="services__modal-services grid">
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Increase public awareness of the importance of maintaining holistic health while considering cultural and environmental factors.</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Promote healthy lifestyles that are culturally appropriate so that people can maintain their health without compromising their cultural values and traditions.</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">
+                          Emphasize the importance of appreciating cultural diversity in health efforts by promoting the integration of modern medical knowledge and effective local traditional practices.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

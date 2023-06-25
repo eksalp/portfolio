@@ -1182,6 +1182,51 @@ const Service = () => {
               </div>
             </div>
           </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Cloud Practitioner <br /> Essentials
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(24)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 24 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Frontend Deployment To Production course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding X DBS Foundation Coding Camp 2023</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Describe and explain the shared responsibility model (shared responsibility model).</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Describes the basics of AWS Cloud migration.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Describes the financial benefits of the AWS Cloud for organizational/enterprise cost management.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1681,6 +1726,51 @@ const Service = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">Able to understand the concept of building ReactJS (production) applications for deployment</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Cloud Practitioner <br /> Essentials
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(24)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 24 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Frontend Deployment To Production course by Ruangguru</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding X DBS Foundation Coding Camp 2023</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Describe and explain the shared responsibility model (shared responsibility model).</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Describes the basics of AWS Cloud migration.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Describes the financial benefits of the AWS Cloud for organizational/enterprise cost management.</p>
                   </li>
                 </ul>
               </div>
