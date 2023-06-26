@@ -1248,7 +1248,7 @@ const Service = () => {
                 <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
                 <h3 className="services__modal-title">Digital Marketing by ai4impact</h3>
                 <div className="about__images">
-                  <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
+                  <img src="https://drive.google.com/uc?export=view&id=15SQ5gEmHlRzha80jggvmd3gvSAWs1jRC" alt="" className="imagesss" />
                 </div>
 
                 <p className="services__modal-description">Participating in virtual course of digital marketing: social media marketing & chatbot 101 by ai4impact 2023</p>
@@ -2148,7 +2148,7 @@ const Service = () => {
                 <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
                 <h3 className="services__modal-title">Digital Marketing by ai4impact</h3>
                 <div className="about__images">
-                  <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
+                  <img src="https://drive.google.com/uc?export=view&id=15SQ5gEmHlRzha80jggvmd3gvSAWs1jRC" alt="" className="imagesss" />
                 </div>
 
                 <p className="services__modal-description">Participating in virtual course of digital marketing: social media marketing & chatbot 101 by ai4impact 2023</p>
