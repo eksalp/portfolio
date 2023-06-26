@@ -1227,6 +1227,51 @@ const Service = () => {
               </div>
             </div>
           </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Digital Marketing <br /> by ai4impact
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(25)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 25 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Digital Marketing by ai4impact</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course of digital marketing: social media marketing & chatbot 101 by ai4impact 2023</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to indentify the audience, market, and analyze the opportunity of market.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to use social media for branding and advertising.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to use SEO for increasing search engine and also optimaze content</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -2077,6 +2122,51 @@ const Service = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">Learn how to make product innovations that consumers need</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Digital Marketing <br /> by ai4impact
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(25)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 25 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Digital Marketing by ai4impact</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=17uiT4nmjEJHXaplH3_4xYZxDC8EmckQe" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course of digital marketing: social media marketing & chatbot 101 by ai4impact 2023</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to indentify the audience, market, and analyze the opportunity of market.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to use social media for branding and advertising.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to use SEO for increasing search engine and also optimaze content</p>
                   </li>
                 </ul>
               </div>
