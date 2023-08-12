@@ -1272,6 +1272,51 @@ const Service = () => {
               </div>
             </div>
           </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-book-open services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Student Development <br /> Program 2023
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(26)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 26 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Student Development Program 2023 by Edvisee</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1y5-o5DVME2lqcxJj-nRt9J1SfRXcJEJW" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual Student Development Program 2023 by Edvisee</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to build self branding in social media.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn what preparations are needed to work and continue their studies after graduating from a bachelor's degree.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Sharing experiences with students from the university of california.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -2508,6 +2553,51 @@ const Service = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">Be able to understand basic thinking skills as one of self-development</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-book-open services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Student Development <br /> Program 2023
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(26)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 26 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Student Development Program 2023 by Edvisee</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1y5-o5DVME2lqcxJj-nRt9J1SfRXcJEJW" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual Student Development Program 2023 by Edvisee</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to build self branding in social media.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn what preparations are needed to work and continue their studies after graduating from a bachelor's degree.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Sharing experiences with students from the university of california.</p>
                   </li>
                 </ul>
               </div>

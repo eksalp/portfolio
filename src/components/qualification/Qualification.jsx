@@ -334,6 +334,51 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">E-commerce Expert</h3>
+                <span className="qualification__subtitle">Perfumery</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 - Now
+                </div>
+                <button className="button edit_button aak" onClick={() => togelTab(7)}>
+                  Detail
+                </button>
+                <div className={togel === 7 ? 'services__modal active-modal' : 'services__modal'}>
+                  <div className="services__modal-content">
+                    <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                    <h3 className="services__modal-title">E-commerce Expert</h3>
+                    <div className="about__images">
+                      <img src="https://drive.google.com/uc?export=view&id=1th31tAC9fNfcLz0AUvOLm7ZCMRDU_Q1J" alt="sertifikat" className="imagesss" />
+                    </div>
+
+                    <p className="services__modal-description">Becoming an E-commerce Expert in Perfumery.</p>
+
+                    <ul className="services__modal-services grid">
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Create and implement strategies that make online transactions possible.</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Organize, develop, and execute website marketing plans.</p>
+                      </li>
+
+                      <li className="services__modal-service">
+                        <i className="uil uil-check-circle services__modal-icon"></i>
+                        <p className="services__modal-info">Set standards, systems, and best practices for new product listings, content creation, distribution, and maintenance.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
           </div>
 
           <div className={pilih === 3 ? 'qualification__content qualification__content-active' : 'qualification__content'}>
