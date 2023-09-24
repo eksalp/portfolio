@@ -44,7 +44,7 @@ export const projectData = [
   {
     id: 7,
     image: 'https://drive.google.com/uc?export=view&id=1UljxfWYbHCcHMF15m_XIv-XVd5BtkIQs',
-    title: 'Website Space Education',
+    title: 'Website Space Education (Spaced)',
     category: 'web App',
     link: 'https://spacedu.netlify.app/',
   },
