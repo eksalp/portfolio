@@ -1317,6 +1317,202 @@ const Service = () => {
               </div>
             </div>
           </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Introduction of <br />
+                Programming Logic
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(27)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 27 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Introduction of Programming Logic By Dicoding</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1BRU-GvdEYmmDV4r8249HVSjUpkT3gm6M" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn basic programming thinking and algorithm.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to solve problem with computational thinking method.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how programming can solve in real case.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Basic <br />
+                Programming
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(28)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 28 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Basic Programming By Dicoding</h3>
+                <div className="about__images">
+                  <img
+                    src="https://drive.google.com/uc?export=view&id=1qhQ6xT9aJuxYudqcNTCsJMQb33CQEE9d
+"
+                    alt=""
+                    className="imagesss"
+                  />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to analysis and evaluate the software needed.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to build planning for software with flowchart.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to modify with HTML, CSS, and JavaScript.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Basic <br />
+                Github
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(29)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 29 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Basic GitHub By Dicoding</h3>
+                <div className="about__images">
+                  <img
+                    src="https://drive.google.com/uc?export=view&id=1M0wL6kabnNM_Me5b0HG1edbW1e0jiBkz
+"
+                    alt=""
+                    className="imagesss"
+                  />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to collaborate with other through GitHub.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Knowing about Git and Github.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn the basic of data or code management with Git.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <i className="uil uil-bag-alt services__icon"></i>
+              <h3 className="sevices__title">
+                Leadership <br />
+                Bootcamp
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(30)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 30 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Leadership Bootcamp by Novo Club</h3>
+                <div className="about__images">
+                  <img
+                    src="https://drive.google.com/uc?export=view&id=1Es1WiRKjpJDXSezy-zJ5bCvJ8PZWMxWa
+"
+                    alt=""
+                    className="imagesss"
+                  />
+                </div>
+
+                <p className="services__modal-description">Participating in Novo Club Bootcamp online training with Project Case</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn leadership materials.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn the Effectiveness of Communication within team.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to build personal branding.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1861,6 +2057,154 @@ const Service = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">Describes the financial benefits of the AWS Cloud for organizational/enterprise cost management.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Introduction of <br />
+                Programming Logic
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(27)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 27 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Introduction of Programming Logic By Dicoding</h3>
+                <div className="about__images">
+                  <img src="https://drive.google.com/uc?export=view&id=1BRU-GvdEYmmDV4r8249HVSjUpkT3gm6M" alt="" className="imagesss" />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn basic programming thinking and algorithm.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to solve problem with computational thinking method.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how programming can solve in real case.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Basic <br />
+                Programming
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(28)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 28 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Basic Programming By Dicoding</h3>
+                <div className="about__images">
+                  <img
+                    src="https://drive.google.com/uc?export=view&id=1qhQ6xT9aJuxYudqcNTCsJMQb33CQEE9d
+"
+                    alt=""
+                    className="imagesss"
+                  />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to analysis and evaluate the software needed.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to build planning for software with flowchart.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Able to modify with HTML, CSS, and JavaScript.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <div className="apa apaa">
+                <i className="uil uil-monitor services__icon"></i>
+              </div>
+
+              <h3 className="sevices__title">
+                Basic <br />
+                Github
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(29)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 29 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Basic GitHub By Dicoding</h3>
+                <div className="about__images">
+                  <img
+                    src="https://drive.google.com/uc?export=view&id=1M0wL6kabnNM_Me5b0HG1edbW1e0jiBkz
+"
+                    alt=""
+                    className="imagesss"
+                  />
+                </div>
+
+                <p className="services__modal-description">Participating in virtual course by Dicoding through Studi Independen, Kampus Merdeka, Kemendikbud</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to collaborate with other through GitHub.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Knowing about Git and Github.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn the basic of data or code management with Git.</p>
                   </li>
                 </ul>
               </div>
@@ -2598,6 +2942,54 @@ const Service = () => {
                   <li className="services__modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
                     <p className="services__modal-info">Sharing experiences with students from the university of california.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="services__content">
+            <div>
+              <i className="uil uil-bag-alt services__icon"></i>
+              <h3 className="sevices__title">
+                Leadership <br />
+                Bootcamp
+              </h3>
+            </div>
+
+            <span className="services__button" onClick={() => togelTab(30)}>
+              View More<i className="uil uil-arrow-right services__button-icon"></i>
+            </span>
+
+            <div className={togel === 30 ? 'services__modal active-modal' : 'services__modal'}>
+              <div className="services__modal-content">
+                <i onClick={() => togelTab(0)} className="uil uil-times services__modal-close"></i>
+                <h3 className="services__modal-title">Leadership Bootcamp by Novo Club</h3>
+                <div className="about__images">
+                  <img
+                    src="https://drive.google.com/uc?export=view&id=1Es1WiRKjpJDXSezy-zJ5bCvJ8PZWMxWa
+"
+                    alt=""
+                    className="imagesss"
+                  />
+                </div>
+
+                <p className="services__modal-description">Participating in Novo Club Bootcamp online training with Project Case</p>
+
+                <ul className="services__modal-services grid">
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn leadership materials.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn the Effectiveness of Communication within team.</p>
+                  </li>
+
+                  <li className="services__modal-service">
+                    <i className="uil uil-check-circle services__modal-icon"></i>
+                    <p className="services__modal-info">Learn how to build personal branding.</p>
                   </li>
                 </ul>
               </div>
