@@ -242,10 +242,10 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">CTO & Co-Founder</h3>
+                <h3 className="qualification__title">Marketing Manager</h3>
                 <span className="qualification__subtitle">OTOranger</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Now
+                  <i className="uil uil-calendar-alt"></i> May - Nov 2023
                 </div>
                 <button className="button edit_button aak" onClick={() => togelTab(5)}>
                   Detail
@@ -340,7 +340,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">E-commerce Expert</h3>
                 <span className="qualification__subtitle">Perfumery</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Now
+                  <i className="uil uil-calendar-alt"></i> Aug - Nov 2023
                 </div>
                 <button className="button edit_button aak" onClick={() => togelTab(7)}>
                   Detail
